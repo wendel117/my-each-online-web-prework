@@ -1,10 +1,10 @@
-def my_each(self)
+def my_each(words)
   i = 0
-  while i < self.length
-    yield self [i]
+  while i < words.length
+    yield words [i]
     i += i + 1
   end
-  self[0]
+  words[0]
 end
 
 #def my_each(words)#
