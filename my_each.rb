@@ -7,8 +7,8 @@ def my_each(self)
   self[0]
 end
 
-def my_each(words)
-  words.collect do |words|
-    return words
-  end
-end
+#def my_each(words)#
+#  words.collect do |words|
+#    return words
+#  end
+#end
