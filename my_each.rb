@@ -7,4 +7,3 @@ def my_each(words)
   end
   words[0]
 end
-
