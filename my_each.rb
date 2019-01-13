@@ -1,7 +1,9 @@
 
-
-def my_each(words)
-  words.collect do |words|
-    return words
+def my_each(array)
+  i = 0
+  while i < array.length
+    yield(array[i])
+    i += 1
   end
+  array
 end
